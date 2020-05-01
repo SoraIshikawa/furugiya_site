@@ -1,0 +1,220 @@
+/*‰æ–Ê‘S‘Ì‚ÌÝ’è*/
+body,
+html {
+  height: 100%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+hr {
+	height: 1.5px;
+	width: 80%;
+	background-color: #696969;
+	border: none;
+	
+}
+
+ul { padding-left: 0; }
+
+.box-01 p {
+ font-size: 13px;
+ margin-left:14%;
+}
+
+.box-02 p {
+ font-size: 12px;
+}
+
+.header {
+	position:fixed;
+	background-color:rgba(255,255,255,0.6);
+	width: 100%;
+	height:50px;
+}
+
+.header-title {
+ color: #fff;
+ float: left;
+ font-size: 20px;
+ margin: 15px;
+}
+
+.search-box {
+ float: right;
+ margin: 15px;
+}
+ 
+/*ŒÅ’è‚·‚é”wŒi*/
+.block {
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: 5%;
+}
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Še”wŒi‚Ì‰æ‘œ*/
+.top {
+  background-image: url('top.jpg');
+  background-size:contain;
+}
+.img-01 {
+  background-image: url('img-01.jpg');
+}
+.box-01 {
+  background-color: #fff;
+}
+
+.img-02 {
+  background-image: url('img-03.jpg');
+}
+
+.box-02 {
+  background-color: #fff;
+}
+
+.img-03 {
+  background-image: url('img-04.jpg');
+}
+
+.box-03 {
+  background-color: #fff;
+}
+
+.img-04 {
+  background-image: url('img-06.jpg');
+}
+
+.place-title {
+ text-align: center;
+ font-size: 20px;
+}
+
+.shouhin-title {
+ text-align: center;
+ font-size: 20px;
+ margin-bottom: 50px;
+}
+
+.girl-title {
+ text-align: center;
+ font-size: 20px;
+ margin-bottom: 50px;
+}
+
+.box-01 a {
+	color: #808080;
+	text-decoration: none;
+}
+
+.menyu {
+ height: 2rem;
+ width: 100%;
+ float: center;
+ display: block;
+}
+
+.menyu > li {
+ font-size:17px;
+ margin-top: 20px;
+}
+
+.menyu li {
+ list-style: none;
+}
+
+.menyu li a {
+ background: #fff;
+ display: block;
+ text-align: center;
+ text-decoration: none;
+} 
+
+.menyu li li {
+ color: #808080;
+ text-align: left;
+ font-size: 14px;
+ height: 0;
+ overflow: hidden;
+ transition: .5s;
+}
+
+.menyu li li a {
+ margin-top: 5px;
+ text-align:center;
+}
+.menyu li:hover > ul > li {
+    height: 2rem;
+    overflow: visible;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+	color: black;
+}
+
+.girl-list {
+	font-size: 17px;
+	text-align: left;
+	width: 80%;
+	text-align: center;
+	padding-left: 110px;
+	
+}
+
+
+.girl-list li {
+	color: #808080;
+	padding: 0;
+	padding-top: 20px;
+	margin: 0;
+	list-style-type: none;
+	float: left;
+	width: 33.3%;
+	text-decoration: none;
+}
+
+.girl-list a {
+	text-decoration: none;
+}
+
+.footer {
+	overflow:hidden;
+	text-align: center;
+	display: block;
+	position: absolute;
+	background-color:rgba(255,255,255,1);
+	margin-top: 400px;
+	width: 100%;
+	height:315px;
+}
+
+.footer-title {
+ font-size: 20px;
+}
+
+.footer a {
+	color: #808080;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: black;
+}
+
+
+@media (max-width: 750px){
+	.girl-list {
+		padding-left: 40px;
+	}
+	.footer {
+		height: 350px;
+}
